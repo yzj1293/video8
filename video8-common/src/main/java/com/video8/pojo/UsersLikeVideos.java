@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableName;
 
 @TableName("users_like_videos")
-public class UsersLikeVideos {
+public class UsersLikeVideos extends BasePojo{
     @TableId
     private String id;
 

@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableName;
 
 @TableName("bgm")
-public class Bgm {
+public class Bgm extends BasePojo{
     @TableId("id")
     private String id;
 

@@ -10,7 +10,7 @@ import io.swagger.annotations.ApiModelProperty;
 
 @ApiModel(value="用户对象", description="这是用户对象")
 @TableName("users")
-public class Users {
+public class Users extends BasePojo{
     
 	@ApiModelProperty(hidden=true)
 	@TableId

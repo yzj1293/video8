@@ -74,14 +74,14 @@ public class FetchVideoCover {
 		this.ffmpegEXE = ffmpegEXE;
 	}
 	
-	public static void main(String[] args) {
-		// 获取视频信息。
-		FetchVideoCover videoInfo = new FetchVideoCover("c:\\ffmpeg\\bin\\ffmpeg.exe");
-		try {
-			videoInfo.getCover("c:\\北京北京.avi","c:\\北京.jpg");
-
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
+//	public static void main(String[] args) {
+//		// 获取视频信息。
+//		FetchVideoCover videoInfo = new FetchVideoCover("c:\\ffmpeg\\bin\\ffmpeg.exe");
+//		try {
+//			videoInfo.getCover("c:\\北京北京.avi","c:\\北京.jpg");
+//
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
+//	}
 }

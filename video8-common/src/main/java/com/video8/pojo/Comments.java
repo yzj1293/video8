@@ -6,7 +6,7 @@ import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableName;
 @TableName("comments")
-public class Comments {
+public class Comments extends BasePojo{
 	@TableId
     private String id;
 

@@ -6,7 +6,7 @@ import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableName;
 @TableName("videos")
-public class Videos {
+public class Videos extends BasePojo{
     @TableId
     private String id;
 
@@ -71,11 +71,6 @@ public class Videos {
      */
     private Integer status;
 
-    /**
-     * 创建时间
-     */
-    @TableField( "create_time")
-    private Date createTime;
 
     /**
      * @return id
@@ -279,21 +274,4 @@ public class Videos {
         this.status = status;
     }
 
-    /**
-     * 获取创建时间
-     *
-     * @return create_time - 创建时间
-     */
-    public Date getCreateTime() {
-        return createTime;
-    }
-
-    /**
-     * 设置创建时间
-     *
-     * @param createTime 创建时间
-     */
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
-    }
 }

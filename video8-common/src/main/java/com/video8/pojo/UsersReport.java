@@ -7,7 +7,7 @@ import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableName;
 
 @TableName("users_report")
-public class UsersReport {
+public class UsersReport extends BasePojo{
     @TableId
     private String id;
 
@@ -35,11 +35,6 @@ public class UsersReport {
      */
     private String userid;
 
-    /**
-     * 举报时间
-     */
-    @TableField( "create_date")
-    private Date createDate;
 
     /**
      * @return id
@@ -141,21 +136,7 @@ public class UsersReport {
         this.userid = userid;
     }
 
-    /**
-     * 获取举报时间
-     *
-     * @return create_date - 举报时间
-     */
-    public Date getCreateDate() {
-        return createDate;
-    }
+   
 
-    /**
-     * 设置举报时间
-     *
-     * @param createDate 举报时间
-     */
-    public void setCreateDate(Date createDate) {
-        this.createDate = createDate;
-    }
+   
 }

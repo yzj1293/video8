@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableName;
 
 @TableName("search_records")
-public class SearchRecords {
+public class SearchRecords extends BasePojo{
     @TableId
     private String id;
 
