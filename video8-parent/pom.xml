@@ -114,7 +114,6 @@
 			<version>0.2.0</version>
 		</dependency>
 	</dependencies>
-
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
