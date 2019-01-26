@@ -1,0 +1,9 @@
+server:
+  port: 9001
+dubbo:
+  scan:
+    basePackages: com.video8
+  application:
+    name: consumer-user
+  registry:
+    address: zookeeper://192.168.92.140:2181
