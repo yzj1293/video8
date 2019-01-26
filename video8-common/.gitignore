@@ -1,0 +1,23 @@
+# maven ignore
+target/
+
+# gradle ignore
+.gradle/
+out/
+build/
+gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+classes/
